@@ -1,0 +1,34 @@
+ref_data_path: ./data/reference/
+fake_data_path: ./data/fake/
+in_data_path: ./data/input/
+crop_data_path: ./data/crop/
+crop_size: 648
+channels: 3
+lr_init: 0.0001
+gen_epochs: 1000
+gen_batch_size: 1
+steps_per_epoch: 700
+total_steps: 700000
+val_batch_size: 1
+validation_steps: 100
+
+
+disc_epochs: 250
+disc_batch_size: 1
+gan_epochs: 100
+gan_batch_size: 1
+
+
+
+gen_checkpoint_path: "./saved/checkpoints/gen"
+disc_checkpoint_path: "./saved/checkpoints/disc"
+gan_checkpoint_path: "./saved/checkpoints/gan"
+
+gen_model_path: "./saved/models/gen.h5"
+disc_model_path: "./saved/models/disc.h5"
+gan_gen_model_path: "./saved/models/gan_gen.h5"
+gan_disc_model_path: "./saved/models/gan_disc.h5"
+
+
+upscaleinput: "./upscalepics/input"
+upscaleoutput: "./upscalepics/output"
