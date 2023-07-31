@@ -37,6 +37,7 @@ I did lot of modifications as per my requirement, the intuition behind patchbase
 
   <h5><b>Gan Traning</b></h5>
   <li>Same data used for the generator is used</li>
+  <li>Model was able to produce 0.67 SSIM and 0.23 PSNR on the test dataset and able to generalize well across all the images</li>
 </ul>
 
 Here as of resource constraints,  batchsize = 1.
