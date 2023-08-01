@@ -18,7 +18,7 @@ restoration and compression artifact removal</b>
 I did lot of modifications as per my requirement, the intuition behind patchbased training,NoGan method is taken from the paper.
 
 <ul>
-  <li>Generator model will have single Residual in Residual Dense Block (RRDB) followed convolution layers</li>
+  <li>Generator model will have double Residual in Residual Dense Block (RRDB) followed convolution layers</li>
   <li> Discriptor model will have 6 Convolution layer having leaky Relu as an activation function</li>
 </ul>
 
